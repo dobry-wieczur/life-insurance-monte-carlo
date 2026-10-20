@@ -1,0 +1,19 @@
+[project]
+name = "life-insurance-monte-carlo"
+version = "1.0.0"
+description = "One-year Monte Carlo analysis of a heterogeneous life insurance portfolio using Polish mortality data"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy==2.3.5",
+  "pandas==2.2.3",
+  "matplotlib==3.10.8",
+  "scipy==1.17.0",
+  "ipykernel>=6.29,<8",
+  "jinja2>=3.1.6",
+]
+
+[dependency-groups]
+dev = ["nbclient>=0.10,<0.11", "nbformat>=5.10,<6", "openpyxl==3.1.5"]
+
+[tool.uv]
+package = false

@@ -1,0 +1,21 @@
+{
+  "mean_theory_PLN": 8396750.0,
+  "variance_theory_PLN2": 1333529029125.0,
+  "sd_theory_PLN": 1154785.2740336622,
+  "pure_premium_PLN": 839.675,
+  "mean_MC_PLN": 8398839.0,
+  "q99_MC_PLN": 11200000.0,
+  "budget_PLN": 10750000.0,
+  "tail_MC": 0.02436,
+  "tail_MC95": [
+    0.023422612644195134,
+    0.025333928981542863
+  ],
+  "mean_error_SE": 0.572054232127243,
+  "variance_error_SE": 0.9074661848292943,
+  "scale_slope_MC": -0.5001526801307297,
+  "convergence_slope_MC": -0.5363412415681191,
+  "SE_mean_M100000_PLN": 3651.7516743680694,
+  "seed": 20261019,
+  "M_main": 100000
+}
