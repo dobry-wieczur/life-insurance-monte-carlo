@@ -30,16 +30,16 @@ Policy counts and benefits are hypothetical:
 
 For each group $g$, $n_g$ is the number of policies, $q_g$ the annual death probability and $K_g$ the benefit. Assuming independent deaths,
 
-$$
-D_g\sim\operatorname{Binomial}(n_g,q_g),\qquad S=\sum_g K_gD_g.
-$$
+```math
+D_g\sim\mathrm{Binomial}(n_g,q_g),\qquad S=\sum_g K_gD_g.
+```
 
 The analytic mean and variance of the total payout are
 
-$$
+```math
 \mathbb{E}[S]=\sum_g n_gq_gK_g,\qquad
-\operatorname{Var}(S)=\sum_g n_gq_g(1-q_g)K_g^2.
-$$
+\mathrm{Var}(S)=\sum_g n_gq_g(1-q_g)K_g^2.
+```
 
 Monte Carlo sampling is used to estimate the distribution of $S$ and its upper-tail probabilities.
 
